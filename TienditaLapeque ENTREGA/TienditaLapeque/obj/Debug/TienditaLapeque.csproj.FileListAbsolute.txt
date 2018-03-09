@@ -1,0 +1,142 @@
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\GRAFICACION Y MULTIMEDIA\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\bin\Debug\MySql.Data.dll
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\bin\Debug\MySql.Data.xml
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.csprojResolveAssemblyReference.cache
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Form1.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Properties.Resources.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.GenerateResource.Cache
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Productos.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.index.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.modificar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.borrar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\BASES DE DATOS\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.ver.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\MySql.Data.dll
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\MySql.Data.xml
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.csprojResolveAssemblyReference.cache
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.borrar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Form1.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.index.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.modificar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Productos.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Properties.Resources.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.ver.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.GenerateResource.Cache
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Agregar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.usuarios.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Ventas.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.CalculoVenta.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Reportes.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\MySql.Data.dll
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\bin\Debug\MySql.Data.xml
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.csprojResolveAssemblyReference.cache
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Agregar.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.borrar.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.CalculoVenta.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Form1.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.index.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.modificar.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Productos.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Properties.Resources.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Reportes.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.usuarios.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.Ventas.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.ver.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.GenerateResource.Cache
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\TienditaLapeque\TienditaLapeque\obj\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\MySql.Data.dll
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\bin\Debug\MySql.Data.xml
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.csprojResolveAssemblyReference.cache
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.Agregar.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.borrar.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.CalculoVenta.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.Form1.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.index.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.modificar.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.Productos.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.Properties.Resources.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.Reportes.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.usuarios.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.Ventas.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.ver.resources
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.GenerateResource.Cache
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\TienditaLapeque - copia\TienditaLapeque\obj\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.application
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.exe
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.pdb
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\MySql.Data.dll
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\MySql.Data.xml
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.csprojResolveAssemblyReference.cache
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Agregar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.borrar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.CalculoVenta.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Form1.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.index.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.modificar.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Productos.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Properties.Resources.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Reportes.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.usuarios.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Ventas.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.ver.resources
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.GenerateResource.Cache
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.exe.manifest
+C:\Users\Jose Antonio\Desktop\6to Cuatrimestre\INGENIERIA DE SOFTWARE\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.application
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.exe.config
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.exe.manifest
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.application
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.exe
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\TienditaLapeque.pdb
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\bin\Debug\MySql.Data.xml
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.csprojResolveAssemblyReference.cache
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Agregar.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.borrar.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.CalculoVenta.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Form1.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.index.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.modificar.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Productos.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Properties.Resources.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Reportes.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.usuarios.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.Ventas.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.ver.resources
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.GenerateResource.Cache
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.csproj.CoreCompileInputs.cache
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.exe.manifest
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.application
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.exe
+C:\Users\anell\Documents\TienditaLapeque ENTREGA\TienditaLapeque\obj\Debug\TienditaLapeque.pdb

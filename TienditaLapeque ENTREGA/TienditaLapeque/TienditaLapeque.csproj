@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F842678C-AB26-4F06-8D6A-00280AB35D60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TienditaLapeque</RootNamespace>
+    <AssemblyName>TienditaLapeque</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Jose Antonio\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5F013AC54D9A90C59888A7F468D2179A606143C0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TienditaLapeque_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar.Designer.cs">
+      <DependentUpon>Agregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="borrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrar.Designer.cs">
+      <DependentUpon>borrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculoVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculoVenta.Designer.cs">
+      <DependentUpon>CalculoVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificar.Designer.cs">
+      <DependentUpon>modificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuarios.Designer.cs">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="variablesglobales.cs" />
+    <Compile Include="Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ver.Designer.cs">
+      <DependentUpon>ver.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Agregar.resx">
+      <DependentUpon>Agregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrar.resx">
+      <DependentUpon>borrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalculoVenta.resx">
+      <DependentUpon>CalculoVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificar.resx">
+      <DependentUpon>modificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuarios.resx">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ver.resx">
+      <DependentUpon>ver.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TienditaLapeque_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
