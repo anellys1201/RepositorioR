@@ -47,6 +47,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnbuscar = new System.Windows.Forms.Button();
+            this.txtbuscador = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -156,7 +158,7 @@
             this.bORRARToolStripMenuItem,
             this.vERToolStripMenuItem,
             this.rEGRESARToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(9, 93);
+            this.menuStrip1.Location = new System.Drawing.Point(9, 79);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(735, 36);
             this.menuStrip1.TabIndex = 35;
@@ -234,12 +236,36 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnbuscar
+            // 
+            this.btnbuscar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnbuscar.Enabled = false;
+            this.btnbuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnbuscar.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbuscar.Location = new System.Drawing.Point(515, 122);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(29, 31);
+            this.btnbuscar.TabIndex = 42;
+            this.btnbuscar.Text = "🔎";
+            this.btnbuscar.UseVisualStyleBackColor = false;
+            // 
+            // txtbuscador
+            // 
+            this.txtbuscador.Location = new System.Drawing.Point(237, 125);
+            this.txtbuscador.Name = "txtbuscador";
+            this.txtbuscador.Size = new System.Drawing.Size(282, 20);
+            this.txtbuscador.TabIndex = 41;
+            this.txtbuscador.TextChanged += new System.EventHandler(this.txtbuscador_TextChanged);
+            // 
             // modificar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(756, 382);
+            this.Controls.Add(this.btnbuscar);
+            this.Controls.Add(this.txtbuscador);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
@@ -287,5 +313,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ToolStripMenuItem rEGRESARToolStripMenuItem;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnbuscar;
+        private System.Windows.Forms.TextBox txtbuscador;
     }
 }

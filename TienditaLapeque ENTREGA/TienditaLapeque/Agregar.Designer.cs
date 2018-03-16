@@ -153,7 +153,7 @@
             this.bORRARToolStripMenuItem,
             this.vERToolStripMenuItem,
             this.RegresartoolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(18, 101);
+            this.menuStrip1.Location = new System.Drawing.Point(9, 92);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(768, 36);
             this.menuStrip1.TabIndex = 34;

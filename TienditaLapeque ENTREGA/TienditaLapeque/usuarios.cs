@@ -82,7 +82,8 @@ namespace TienditaLapeque
                 if (txtPass.TextLength < 8)
                 {
                     MessageBox.Show("Tu contraseña es demaciado corta, ingresa mas de 8 carateres");
-                }else 
+                }
+                else
                 if (MessageBox.Show("¿Esta seguro de agregar a este usuario?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
                 {
                     string insertQuery = "INSERT INTO usuarios( nombre, apepat, apemat, id_rango, contrasena)VALUES('" + txtnombre.Text + "','" + txtAP.Text + "','" + txtAM.Text + "','" + comboBox1.Text + "','" + txtPass.Text + "' )";

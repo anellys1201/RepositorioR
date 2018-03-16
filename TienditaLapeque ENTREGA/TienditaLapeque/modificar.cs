@@ -159,5 +159,28 @@ namespace TienditaLapeque
                textBox3.Text = "";
             }
         }
+
+        private void txtbuscador_TextChanged(object sender, EventArgs e)
+        {
+            
+            MySqlDataReader mdr;
+            string select = "SELECT * FROM productos WHERE nom_producto like'" + txtbuscador.Text + "%'";
+            command = new MySqlCommand(select, connection);
+            DataTable table = new DataTable();
+            MySqlDataAdapter adapter = new MySqlDataAdapter(select, connection);
+            adapter.Fill(table);
+            dataGridView1.DataSource = table;
+            openConnection();
+            mdr = command.ExecuteReader();
+            if (mdr.Read())
+            {
+                textBox4.Text = mdr.GetInt32("id_producto").ToString();
+                textBox1.Text = mdr.GetString("nom_producto");
+                textBox2.Text = mdr.GetString("precio");
+                textBox3.Text = mdr.GetString("cantidad");
+                select = "SELECT * FROM productos WHERE id_producto='" + textBox4.Text + "'";
+            }
+            closeConnection();
+        }
     }
 }
