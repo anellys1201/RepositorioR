@@ -25,8 +25,8 @@ namespace TienditaLapeque
         {
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
             builder.Server = "localhost";
-            builder.UserID = "root";
-            builder.Password = "1234";
+            builder.UserID = "administrador";
+            builder.Password = "";
             builder.Database = "sistema";
             return builder.ToString();
         }

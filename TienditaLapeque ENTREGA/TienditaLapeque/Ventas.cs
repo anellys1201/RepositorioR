@@ -21,7 +21,7 @@ namespace TienditaLapeque
             lblus.Text = Globales.usuario;
            
         }
-        MySqlConnection connection = new MySqlConnection(@"Data Source=localhost;port=3306;Initial Catalog=sistema;User Id=root;password='1234';");
+        MySqlConnection connection = new MySqlConnection(@"Data Source=localhost;port=3306;Initial Catalog=sistema;User Id=administrador;password='';");
         MySqlCommand command;
         
 
