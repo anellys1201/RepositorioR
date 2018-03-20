@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TienditaLapeque.exe" size="2413576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TienditaLapeque.exe" size="2414600">
       <assemblyIdentity name="TienditaLapeque" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GgeW+e21WMnGQQAlZHwrUJlyxKhtMxBsR0YQQzH1Xa8=</dsig:DigestValue>
+        <dsig:DigestValue>v9GhSgLbUTA5uECWdhw22S/PVURMw/G3z0xjsD7DrrA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
