@@ -73,25 +73,48 @@ namespace TienditaLapeque
         {
             populateDGV();
         }
-        
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             if (txtnombre.Text != " " && comboBox1.Text != "" && txtAM.Text != "" && txtAP.Text != "" && txtPass.Text != " ")
             {
-                //Convert.ToString(txtPass.Text);
-                if (txtPass.TextLength < 8)
-                {
-                    MessageBox.Show("Tu contraseña es demaciado corta, ingresa mas de 8 carateres");
-                }
-                else
                 if (MessageBox.Show("¿Esta seguro de agregar a este usuario?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
                 {
+
+                    //Verificar Existencia
+                    closeConnection();
+                    MySqlDataReader mrd;
+                    string selectQuery = "SELECT * FROM usuarios where nombre ='" + txtnombre.Text + "'";
+                    DataTable table = new DataTable();
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
+                    command = new MySqlCommand(selectQuery, connection);
+                    openConnection();
+                    mrd = command.ExecuteReader();
+                    if (mrd.Read())
+                    {
+
+                        //   txtbuscar.Text = "";
+                        MessageBox.Show("Usuario existente");
+                    }
+
+
+
+                    closeConnection();
+                }
+                else
+                {
+
+
                     string insertQuery = "INSERT INTO usuarios( nombre, apepat, apemat, id_rango, contrasena)VALUES('" + txtnombre.Text + "','" + txtAP.Text + "','" + txtAM.Text + "','" + comboBox1.Text + "','" + txtPass.Text + "' )";
+
+                    //  MessageBox.Show(insertQuery);
                     executeMyQuery(insertQuery);
                     populateDGV();
                     MessageBox.Show("Usuario agregado");
                     populateDGV();
                     button1_Click(sender, e);
+
+
                 }
             }
             else
