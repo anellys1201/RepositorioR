@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 namespace variablesGlobales
 {
     static class Globales
     {
+        public static Document document = new Document();  
         public static string usuario;
         public static string constraseña;
         public static int ap;

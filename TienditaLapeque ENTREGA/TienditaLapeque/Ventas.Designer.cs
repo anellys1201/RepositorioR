@@ -57,6 +57,7 @@ namespace TienditaLapeque
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.btnTicket = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridVenta)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -65,6 +66,7 @@ namespace TienditaLapeque
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnTicket);
             this.groupBox1.Controls.Add(this.btnFinalizar);
             this.groupBox1.Controls.Add(this.btnQuitar);
             this.groupBox1.Controls.Add(this.dataGridVenta);
@@ -82,7 +84,7 @@ namespace TienditaLapeque
             this.btnFinalizar.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnFinalizar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinalizar.Location = new System.Drawing.Point(346, 292);
+            this.btnFinalizar.Location = new System.Drawing.Point(225, 292);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(95, 57);
             this.btnFinalizar.TabIndex = 6;
@@ -95,7 +97,7 @@ namespace TienditaLapeque
             this.btnQuitar.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnQuitar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
             this.btnQuitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuitar.Location = new System.Drawing.Point(84, 292);
+            this.btnQuitar.Location = new System.Drawing.Point(31, 292);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(129, 57);
             this.btnQuitar.TabIndex = 5;
@@ -364,6 +366,19 @@ namespace TienditaLapeque
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // btnTicket
+            // 
+            this.btnTicket.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnTicket.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTicket.Location = new System.Drawing.Point(376, 292);
+            this.btnTicket.Name = "btnTicket";
+            this.btnTicket.Size = new System.Drawing.Size(95, 57);
+            this.btnTicket.TabIndex = 7;
+            this.btnTicket.Text = "Generar Ticket";
+            this.btnTicket.UseVisualStyleBackColor = false;
+            this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
+            // 
             // Ventas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -422,5 +437,6 @@ namespace TienditaLapeque
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnTicket;
     }
 }

@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="TienditaLapeque.exe.manifest" size="4246">
+    <dependentAssembly dependencyType="install" codebase="TienditaLapeque.exe.manifest" size="4920">
       <assemblyIdentity name="TienditaLapeque.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gKPkyQJnC1TE262Vu+AldngRuRvtV83p3L0XKskFDvM=</dsig:DigestValue>
+        <dsig:DigestValue>sfAgrkvja6JTqFaYK63GT9hbOo66kgtPDPWyS/+U7Lk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
