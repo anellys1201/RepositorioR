@@ -139,5 +139,21 @@ namespace TienditaLapeque
         {
 
         }
+
+        private void lblCambiarContraseña_Click(object sender, EventArgs e)
+        {
+            CambiarContraseña FrmCambiar = new CambiarContraseña();
+            if (MessageBox.Show("Para cambiar la contraseña de un Usuario debera ingresar la contraseña del Administrador para validar el cambio, ¿Desea continuar?", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
+            {
+                
+               
+                FrmCambiar.Show();
+                this.Hide();
+            }
+            else
+            {
+
+            }
+        }
     }
 }

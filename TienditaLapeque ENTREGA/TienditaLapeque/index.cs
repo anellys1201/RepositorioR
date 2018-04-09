@@ -36,9 +36,9 @@ namespace TienditaLapeque
         private void btnProductos_Click(object sender, EventArgs e)
         {
           
-           Agregar fagregar = new Agregar();
+            this.Close();
+            Agregar fagregar = new Agregar();
             fagregar.Show();
-            this.Hide();
            
         }
 
@@ -58,9 +58,9 @@ namespace TienditaLapeque
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
+            this.Close();
             usuarios frmusuarios = new usuarios();
             frmusuarios.Show();
-            this.Hide();
             //this.WindowState = FormWindowState.Minimized;
             
         }
@@ -68,10 +68,10 @@ namespace TienditaLapeque
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            
-        Ventas frmventas = new Ventas();
+            this.Close();
+            Ventas frmventas = new Ventas();
             frmventas.Show();
-            this.Hide();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -79,9 +79,9 @@ namespace TienditaLapeque
             if (MessageBox.Show("¿Esta seguro de cerrar sesion?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
             {
 
+                this.Close();
                 Form1 frmlogin = new Form1();
                 frmlogin.Show();
-                this.Hide();
             }
         }
 
@@ -102,9 +102,9 @@ namespace TienditaLapeque
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
+            this.Close();
             Reportes frmreportes = new Reportes();
             frmreportes.Show();
-            this.Hide();
         }
     }
 }

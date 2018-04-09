@@ -131,7 +131,6 @@ namespace TienditaLapeque
         {
             if (MessageBox.Show("¿Esta seguro de salir de la pantalla de Modificar Productos?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
             {
-                this.Hide();
                 this.Close();
                 index frmindex = new index();
                 frmindex.Show();

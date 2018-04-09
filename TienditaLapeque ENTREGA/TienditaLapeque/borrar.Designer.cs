@@ -247,12 +247,13 @@
             this.btnbuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbuscar.Location = new System.Drawing.Point(517, 112);
+            this.btnbuscar.Location = new System.Drawing.Point(526, 112);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(29, 31);
             this.btnbuscar.TabIndex = 44;
             this.btnbuscar.Text = "🔎";
             this.btnbuscar.UseVisualStyleBackColor = false;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // txtbuscador
             // 

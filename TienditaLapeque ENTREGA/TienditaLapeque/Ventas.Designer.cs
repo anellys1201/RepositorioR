@@ -32,6 +32,7 @@ namespace TienditaLapeque
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ventas));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnTicket = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.btnQuitar = new System.Windows.Forms.Button();
             this.dataGridVenta = new System.Windows.Forms.DataGridView();
@@ -57,7 +58,6 @@ namespace TienditaLapeque
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.btnTicket = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridVenta)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -78,6 +78,19 @@ namespace TienditaLapeque
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Articulos aregados";
+            // 
+            // btnTicket
+            // 
+            this.btnTicket.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnTicket.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTicket.Location = new System.Drawing.Point(376, 292);
+            this.btnTicket.Name = "btnTicket";
+            this.btnTicket.Size = new System.Drawing.Size(95, 57);
+            this.btnTicket.TabIndex = 7;
+            this.btnTicket.Text = "Generar Ticket";
+            this.btnTicket.UseVisualStyleBackColor = false;
+            this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
             // 
             // btnFinalizar
             // 
@@ -195,7 +208,7 @@ namespace TienditaLapeque
             this.btnAgregar.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregar.Location = new System.Drawing.Point(389, 320);
+            this.btnAgregar.Location = new System.Drawing.Point(389, 311);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(88, 38);
             this.btnAgregar.TabIndex = 4;
@@ -205,32 +218,32 @@ namespace TienditaLapeque
             // 
             // txtcantidad
             // 
-            this.txtcantidad.Location = new System.Drawing.Point(141, 292);
+            this.txtcantidad.Location = new System.Drawing.Point(141, 303);
             this.txtcantidad.Name = "txtcantidad";
-            this.txtcantidad.Size = new System.Drawing.Size(157, 29);
+            this.txtcantidad.Size = new System.Drawing.Size(97, 29);
             this.txtcantidad.TabIndex = 3;
             this.txtcantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcantidad_KeyPress);
             // 
             // txtprecio
             // 
             this.txtprecio.Enabled = false;
-            this.txtprecio.Location = new System.Drawing.Point(141, 247);
+            this.txtprecio.Location = new System.Drawing.Point(389, 254);
             this.txtprecio.Name = "txtprecio";
-            this.txtprecio.Size = new System.Drawing.Size(157, 29);
+            this.txtprecio.Size = new System.Drawing.Size(88, 29);
             this.txtprecio.TabIndex = 19;
             // 
             // txtnombre
             // 
             this.txtnombre.Enabled = false;
-            this.txtnombre.Location = new System.Drawing.Point(141, 204);
+            this.txtnombre.Location = new System.Drawing.Point(141, 253);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(157, 29);
+            this.txtnombre.Size = new System.Drawing.Size(97, 29);
             this.txtnombre.TabIndex = 18;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 283);
+            this.label4.Location = new System.Drawing.Point(5, 303);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 33);
             this.label4.TabIndex = 0;
@@ -240,7 +253,7 @@ namespace TienditaLapeque
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 238);
+            this.label3.Location = new System.Drawing.Point(270, 250);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 33);
             this.label3.TabIndex = 0;
@@ -250,7 +263,7 @@ namespace TienditaLapeque
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 193);
+            this.label2.Location = new System.Drawing.Point(20, 248);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 36);
             this.label2.TabIndex = 0;
@@ -260,9 +273,9 @@ namespace TienditaLapeque
             // dataGridbuscar
             // 
             this.dataGridbuscar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridbuscar.Location = new System.Drawing.Point(17, 87);
+            this.dataGridbuscar.Location = new System.Drawing.Point(17, 79);
             this.dataGridbuscar.Name = "dataGridbuscar";
-            this.dataGridbuscar.Size = new System.Drawing.Size(460, 93);
+            this.dataGridbuscar.Size = new System.Drawing.Size(460, 166);
             this.dataGridbuscar.TabIndex = 0;
             this.dataGridbuscar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridbuscar_CellContentClick);
             // 
@@ -365,19 +378,6 @@ namespace TienditaLapeque
             this.button4.TabIndex = 7;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // btnTicket
-            // 
-            this.btnTicket.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnTicket.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
-            this.btnTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTicket.Location = new System.Drawing.Point(376, 292);
-            this.btnTicket.Name = "btnTicket";
-            this.btnTicket.Size = new System.Drawing.Size(95, 57);
-            this.btnTicket.TabIndex = 7;
-            this.btnTicket.Text = "Generar Ticket";
-            this.btnTicket.UseVisualStyleBackColor = false;
-            this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
             // 
             // Ventas
             // 

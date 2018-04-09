@@ -51,7 +51,7 @@ namespace TienditaLapeque
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1263, 51);
+            this.label1.Size = new System.Drawing.Size(1043, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sistema de Ventas \"La peque\"";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -68,7 +68,7 @@ namespace TienditaLapeque
             this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductos.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProductos.ForeColor = System.Drawing.Color.White;
-            this.btnProductos.Location = new System.Drawing.Point(462, 288);
+            this.btnProductos.Location = new System.Drawing.Point(320, 284);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(432, 55);
             this.btnProductos.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace TienditaLapeque
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportes.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.ForeColor = System.Drawing.Color.White;
-            this.btnReportes.Location = new System.Drawing.Point(462, 516);
+            this.btnReportes.Location = new System.Drawing.Point(320, 498);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(432, 55);
             this.btnReportes.TabIndex = 3;
@@ -106,7 +106,7 @@ namespace TienditaLapeque
             this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVentas.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVentas.ForeColor = System.Drawing.Color.White;
-            this.btnVentas.Location = new System.Drawing.Point(462, 175);
+            this.btnVentas.Location = new System.Drawing.Point(320, 171);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Size = new System.Drawing.Size(432, 55);
             this.btnVentas.TabIndex = 1;
@@ -125,7 +125,7 @@ namespace TienditaLapeque
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuarios.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnUsuarios.Location = new System.Drawing.Point(462, 400);
+            this.btnUsuarios.Location = new System.Drawing.Point(320, 396);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(432, 55);
             this.btnUsuarios.TabIndex = 4;
@@ -154,7 +154,7 @@ namespace TienditaLapeque
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1163, 9);
+            this.button2.Location = new System.Drawing.Point(943, 9);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(51, 51);
             this.button2.TabIndex = 12;
@@ -169,7 +169,7 @@ namespace TienditaLapeque
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1220, 9);
+            this.button3.Location = new System.Drawing.Point(1000, 9);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(51, 51);
             this.button3.TabIndex = 13;
@@ -185,7 +185,7 @@ namespace TienditaLapeque
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ClientSize = new System.Drawing.Size(1287, 733);
+            this.ClientSize = new System.Drawing.Size(1067, 650);
             this.Controls.Add(this.lblhora);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -197,9 +197,9 @@ namespace TienditaLapeque
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "index";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "z";
             this.TopMost = true;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.index_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

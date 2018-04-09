@@ -40,6 +40,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.lblCambiarContraseña = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -103,7 +104,7 @@
             this.lblhora.AutoSize = true;
             this.lblhora.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhora.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblhora.Location = new System.Drawing.Point(153, 221);
+            this.lblhora.Location = new System.Drawing.Point(153, 228);
             this.lblhora.Name = "lblhora";
             this.lblhora.Size = new System.Drawing.Size(54, 28);
             this.lblhora.TabIndex = 11;
@@ -159,6 +160,19 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // lblCambiarContraseña
+            // 
+            this.lblCambiarContraseña.AutoSize = true;
+            this.lblCambiarContraseña.Font = new System.Drawing.Font("Monotype Corsiva", 11.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCambiarContraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblCambiarContraseña.Location = new System.Drawing.Point(192, 190);
+            this.lblCambiarContraseña.Name = "lblCambiarContraseña";
+            this.lblCambiarContraseña.Size = new System.Drawing.Size(131, 17);
+            this.lblCambiarContraseña.TabIndex = 15;
+            this.lblCambiarContraseña.Text = "Cambiar contraseña";
+            this.lblCambiarContraseña.Click += new System.EventHandler(this.lblCambiarContraseña_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -166,6 +180,7 @@
             this.BackColor = System.Drawing.Color.IndianRed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(452, 274);
+            this.Controls.Add(this.lblCambiarContraseña);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
@@ -197,6 +212,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label lblCambiarContraseña;
     }
 }
 

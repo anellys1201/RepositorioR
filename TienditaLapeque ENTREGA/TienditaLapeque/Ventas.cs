@@ -27,7 +27,10 @@ namespace TienditaLapeque
         }
         public void PDF()
         {
+            Globales.document = new Document();
             PdfWriter.GetInstance(Globales.document, new FileStream("Ticket.pdf", FileMode.OpenOrCreate));
+            iTextSharp.text.Rectangle docSize = new iTextSharp.text.Rectangle(200f,300f);
+            Globales.document.SetPageSize(docSize);
             Globales.document.Open();
             iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("C:/Users/Jose Antonio/Desktop/8vo Cuatrimestre/REINGENIERÍA/RepoTienda/RepositorioR/TienditaLapeque ENTREGA/TienditaLapeque/img/imagenPDF.png");
             imagen.BorderWidth = 0;
@@ -36,7 +39,7 @@ namespace TienditaLapeque
             percentage = 100 / imagen.Width;
             imagen.ScalePercent(percentage * 100);
             Globales.document.Add(imagen);
-            iTextSharp.text.Paragraph parrafo1 = new Paragraph("*****************************************Tiendita La peque**************************************");
+            iTextSharp.text.Paragraph parrafo1 = new Paragraph("/Tienda de Abarrotes la peque/");
             parrafo1.Alignment = Element.ALIGN_CENTER;
             Globales.document.Add(parrafo1);
             Globales.document.Add(new Paragraph("Lo atendio: " + Globales.usuario));
@@ -310,10 +313,10 @@ namespace TienditaLapeque
         {
             if (MessageBox.Show("¿Esta seguro de salir de la pantalla de ventas?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
             {
-
+                Globales.document.CloseDocument();
+                this.Close();
                 index frmindex = new index();
                 frmindex.Show();
-                this.Hide();
             }
         }
 

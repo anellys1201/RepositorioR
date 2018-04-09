@@ -117,7 +117,7 @@ namespace TienditaLapeque
         {
             if (MessageBox.Show("¿Esta seguro de salir de la pantalla de Agregar Productos?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
             {
-                this.Hide();
+                this.Close();
                 index frmindex = new index();
                 frmindex.Show();
             }
@@ -144,6 +144,50 @@ namespace TienditaLapeque
                 MessageBox.Show("¡Error! solo se aceptan numeros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBox3.Text = "";
             }
+        }
+
+        private void txtbuscador_TextChanged(object sender, EventArgs e)
+        {
+            MySqlDataReader mdr;
+            string select = "SELECT * FROM productos WHERE nom_producto like'" + txtbuscador.Text + "%'";
+            command = new MySqlCommand(select, connection);
+            DataTable table = new DataTable();
+            MySqlDataAdapter adapter = new MySqlDataAdapter(select, connection);
+            adapter.Fill(table);
+            dataGridView1.DataSource = table;
+            openConnection();
+            mdr = command.ExecuteReader();
+            if (mdr.Read())
+            {
+             
+                textBox1.Text = mdr.GetString("nom_producto");
+                textBox2.Text = mdr.GetString("precio");
+                textBox3.Text = mdr.GetString("cantidad");
+                
+            }
+            closeConnection();
+        }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            MySqlDataReader mdr;
+            string select = "SELECT * FROM productos WHERE nom_producto like'" + txtbuscador.Text + "%'";
+            command = new MySqlCommand(select, connection);
+            DataTable table = new DataTable();
+            MySqlDataAdapter adapter = new MySqlDataAdapter(select, connection);
+            adapter.Fill(table);
+            dataGridView1.DataSource = table;
+            openConnection();
+            mdr = command.ExecuteReader();
+            if (mdr.Read())
+            {
+               
+                textBox1.Text = mdr.GetString("nom_producto");
+                textBox2.Text = mdr.GetString("precio");
+                textBox3.Text = mdr.GetString("cantidad");
+               
+            }
+            closeConnection();
         }
     }
 }

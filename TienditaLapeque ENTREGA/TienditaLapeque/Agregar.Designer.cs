@@ -45,6 +45,8 @@
             this.vERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RegresartoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnbuscar = new System.Windows.Forms.Button();
+            this.txtbuscador = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -55,7 +57,7 @@
             this.btnAplicar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAplicar.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAplicar.Location = new System.Drawing.Point(650, 323);
+            this.btnAplicar.Location = new System.Drawing.Point(650, 340);
             this.btnAplicar.Name = "btnAplicar";
             this.btnAplicar.Size = new System.Drawing.Size(94, 40);
             this.btnAplicar.TabIndex = 33;
@@ -65,7 +67,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(149, 292);
+            this.textBox3.Location = new System.Drawing.Point(149, 306);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(157, 20);
             this.textBox3.TabIndex = 32;
@@ -73,7 +75,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(149, 234);
+            this.textBox2.Location = new System.Drawing.Point(149, 248);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(157, 20);
             this.textBox2.TabIndex = 31;
@@ -81,7 +83,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(149, 171);
+            this.textBox1.Location = new System.Drawing.Point(149, 185);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(157, 20);
             this.textBox1.TabIndex = 30;
@@ -89,7 +91,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 283);
+            this.label4.Location = new System.Drawing.Point(13, 297);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 33);
             this.label4.TabIndex = 29;
@@ -99,7 +101,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 225);
+            this.label3.Location = new System.Drawing.Point(33, 239);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 33);
             this.label3.TabIndex = 28;
@@ -109,7 +111,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 160);
+            this.label2.Location = new System.Drawing.Point(28, 174);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 36);
             this.label2.TabIndex = 27;
@@ -119,7 +121,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(335, 157);
+            this.dataGridView1.Location = new System.Drawing.Point(335, 171);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(409, 155);
             this.dataGridView1.TabIndex = 26;
@@ -213,12 +215,37 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnbuscar
+            // 
+            this.btnbuscar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnbuscar.Enabled = false;
+            this.btnbuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnbuscar.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbuscar.Location = new System.Drawing.Point(487, 133);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(29, 31);
+            this.btnbuscar.TabIndex = 46;
+            this.btnbuscar.Text = "🔎";
+            this.btnbuscar.UseVisualStyleBackColor = false;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
+            // 
+            // txtbuscador
+            // 
+            this.txtbuscador.Location = new System.Drawing.Point(202, 140);
+            this.txtbuscador.Name = "txtbuscador";
+            this.txtbuscador.Size = new System.Drawing.Size(282, 20);
+            this.txtbuscador.TabIndex = 45;
+            this.txtbuscador.TextChanged += new System.EventHandler(this.txtbuscador_TextChanged);
+            // 
             // Agregar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ClientSize = new System.Drawing.Size(756, 382);
+            this.ClientSize = new System.Drawing.Size(756, 400);
+            this.Controls.Add(this.btnbuscar);
+            this.Controls.Add(this.txtbuscador);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnAplicar);
@@ -262,5 +289,7 @@
         private System.Windows.Forms.ToolStripMenuItem vERToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RegresartoolStripMenuItem1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnbuscar;
+        private System.Windows.Forms.TextBox txtbuscador;
     }
 }

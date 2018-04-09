@@ -129,7 +129,7 @@ namespace TienditaLapeque
         {
             if (MessageBox.Show("¿Esta seguro de salir de la pantalla de Borrar Productos?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
             {
-                this.Hide();
+                this.Close();
                 index frmindex = new index();
                 frmindex.Show();
             }
@@ -166,6 +166,28 @@ namespace TienditaLapeque
         private void txtbuscador_TextChanged(object sender, EventArgs e)
         {
             
+            MySqlDataReader mdr;
+            string select = "SELECT * FROM productos WHERE nom_producto like'" + txtbuscador.Text + "%'";
+            command = new MySqlCommand(select, connection);
+            DataTable table = new DataTable();
+            MySqlDataAdapter adapter = new MySqlDataAdapter(select, connection);
+            adapter.Fill(table);
+            dataGridView1.DataSource = table;
+            openConnection();
+            mdr = command.ExecuteReader();
+            if (mdr.Read())
+            {
+                textBox4.Text = mdr.GetInt32("id_producto").ToString();
+                textBox1.Text = mdr.GetString("nom_producto");
+                textBox2.Text = mdr.GetString("precio");
+                textBox3.Text = mdr.GetString("cantidad");
+                select = "SELECT * FROM productos WHERE id_producto='" + textBox4.Text + "'";
+            }
+            closeConnection();
+        }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
             MySqlDataReader mdr;
             string select = "SELECT * FROM productos WHERE nom_producto like'" + txtbuscador.Text + "%'";
             command = new MySqlCommand(select, connection);
