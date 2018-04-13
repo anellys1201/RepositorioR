@@ -72,19 +72,20 @@ namespace TienditaLapeque
             this.groupBox1.Controls.Add(this.dataGridVenta);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(556, 151);
+            this.groupBox1.Location = new System.Drawing.Point(583, 131);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(501, 389);
+            this.groupBox1.Size = new System.Drawing.Size(474, 409);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Articulos aregados";
+            this.groupBox1.Text = "Articulos agregados";
             // 
             // btnTicket
             // 
-            this.btnTicket.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnTicket.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnTicket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnTicket.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnTicket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTicket.Location = new System.Drawing.Point(376, 292);
+            this.btnTicket.Location = new System.Drawing.Point(363, 289);
             this.btnTicket.Name = "btnTicket";
             this.btnTicket.Size = new System.Drawing.Size(95, 57);
             this.btnTicket.TabIndex = 7;
@@ -94,10 +95,11 @@ namespace TienditaLapeque
             // 
             // btnFinalizar
             // 
-            this.btnFinalizar.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnFinalizar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnFinalizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnFinalizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnFinalizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinalizar.Location = new System.Drawing.Point(225, 292);
+            this.btnFinalizar.Location = new System.Drawing.Point(203, 289);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(95, 57);
             this.btnFinalizar.TabIndex = 6;
@@ -107,10 +109,11 @@ namespace TienditaLapeque
             // 
             // btnQuitar
             // 
-            this.btnQuitar.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnQuitar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnQuitar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnQuitar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnQuitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnQuitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuitar.Location = new System.Drawing.Point(31, 292);
+            this.btnQuitar.Location = new System.Drawing.Point(25, 289);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(129, 57);
             this.btnQuitar.TabIndex = 5;
@@ -121,9 +124,10 @@ namespace TienditaLapeque
             // dataGridVenta
             // 
             this.dataGridVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridVenta.Location = new System.Drawing.Point(6, 29);
+            this.dataGridVenta.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(233)))), ((int)(((byte)(107)))));
+            this.dataGridVenta.Location = new System.Drawing.Point(3, 28);
             this.dataGridVenta.Name = "dataGridVenta";
-            this.dataGridVenta.Size = new System.Drawing.Size(484, 204);
+            this.dataGridVenta.Size = new System.Drawing.Size(468, 204);
             this.dataGridVenta.TabIndex = 0;
             // 
             // btnimprimir
@@ -184,9 +188,9 @@ namespace TienditaLapeque
             this.groupBox2.Controls.Add(this.txtbuscar);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(27, 151);
+            this.groupBox2.Location = new System.Drawing.Point(27, 131);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(500, 389);
+            this.groupBox2.Size = new System.Drawing.Size(522, 409);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Buscar Producto";
@@ -205,10 +209,11 @@ namespace TienditaLapeque
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregar.Location = new System.Drawing.Point(389, 311);
+            this.btnAgregar.Location = new System.Drawing.Point(416, 345);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(88, 38);
             this.btnAgregar.TabIndex = 4;
@@ -218,7 +223,7 @@ namespace TienditaLapeque
             // 
             // txtcantidad
             // 
-            this.txtcantidad.Location = new System.Drawing.Point(141, 303);
+            this.txtcantidad.Location = new System.Drawing.Point(156, 317);
             this.txtcantidad.Name = "txtcantidad";
             this.txtcantidad.Size = new System.Drawing.Size(97, 29);
             this.txtcantidad.TabIndex = 3;
@@ -227,7 +232,7 @@ namespace TienditaLapeque
             // txtprecio
             // 
             this.txtprecio.Enabled = false;
-            this.txtprecio.Location = new System.Drawing.Point(389, 254);
+            this.txtprecio.Location = new System.Drawing.Point(416, 277);
             this.txtprecio.Name = "txtprecio";
             this.txtprecio.Size = new System.Drawing.Size(88, 29);
             this.txtprecio.TabIndex = 19;
@@ -235,7 +240,7 @@ namespace TienditaLapeque
             // txtnombre
             // 
             this.txtnombre.Enabled = false;
-            this.txtnombre.Location = new System.Drawing.Point(141, 253);
+            this.txtnombre.Location = new System.Drawing.Point(156, 273);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(97, 29);
             this.txtnombre.TabIndex = 18;
@@ -243,7 +248,7 @@ namespace TienditaLapeque
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 303);
+            this.label4.Location = new System.Drawing.Point(26, 313);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 33);
             this.label4.TabIndex = 0;
@@ -253,7 +258,7 @@ namespace TienditaLapeque
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(270, 250);
+            this.label3.Location = new System.Drawing.Point(322, 273);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 33);
             this.label3.TabIndex = 0;
@@ -263,7 +268,7 @@ namespace TienditaLapeque
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 248);
+            this.label2.Location = new System.Drawing.Point(41, 266);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 36);
             this.label2.TabIndex = 0;
@@ -273,18 +278,20 @@ namespace TienditaLapeque
             // dataGridbuscar
             // 
             this.dataGridbuscar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridbuscar.Location = new System.Drawing.Point(17, 79);
+            this.dataGridbuscar.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(233)))), ((int)(((byte)(107)))));
+            this.dataGridbuscar.Location = new System.Drawing.Point(17, 71);
             this.dataGridbuscar.Name = "dataGridbuscar";
-            this.dataGridbuscar.Size = new System.Drawing.Size(460, 166);
+            this.dataGridbuscar.Size = new System.Drawing.Size(487, 192);
             this.dataGridbuscar.TabIndex = 0;
             this.dataGridbuscar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridbuscar_CellContentClick);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Location = new System.Drawing.Point(389, 24);
+            this.btnBuscar.Location = new System.Drawing.Point(416, 24);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(88, 38);
             this.btnBuscar.TabIndex = 2;
@@ -339,7 +346,7 @@ namespace TienditaLapeque
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.BackColor = System.Drawing.Color.IndianRed;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.label5.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(-116, 9);
@@ -352,7 +359,7 @@ namespace TienditaLapeque
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
@@ -367,7 +374,7 @@ namespace TienditaLapeque
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.IndianRed;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatAppearance.BorderSize = 0;
@@ -383,7 +390,7 @@ namespace TienditaLapeque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.NavajoWhite;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1067, 551);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);

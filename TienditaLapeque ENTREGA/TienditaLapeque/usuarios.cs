@@ -78,42 +78,44 @@ namespace TienditaLapeque
         {
             if (txtnombre.Text != " " && comboBox1.Text != "" && txtAM.Text != "" && txtAP.Text != "" && txtPass.Text != " ")
             {
-                if (MessageBox.Show("¿Esta seguro de agregar a este usuario?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
+                if (txtPass.TextLength >= 8)
                 {
 
-                    //Verificar Existencia
-                    closeConnection();
-                    MySqlDataReader mrd;
-                    string selectQuery = "SELECT * FROM usuarios where nombre ='" + txtnombre.Text + "'";
-                    DataTable table = new DataTable();
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
-                    command = new MySqlCommand(selectQuery, connection);
-                    openConnection();
-                    mrd = command.ExecuteReader();
-                    if (mrd.Read())
+                    if (MessageBox.Show("¿Esta seguro de agregar a este usuario?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
                     {
 
-                        //   txtbuscar.Text = "";
-                        MessageBox.Show("Usuario existente");
+                        //Verificar Existencia
+                        closeConnection();
+                        MySqlDataReader mrd;
+                        string selectQuery = "SELECT * FROM usuarios where nombre ='" + txtnombre.Text + "'";
+                        DataTable table = new DataTable();
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
+                        command = new MySqlCommand(selectQuery, connection);
+                        openConnection();
+                        mrd = command.ExecuteReader();
+                        if (mrd.Read())
+                        {
+                            MessageBox.Show("Usuario existente");
+                            closeConnection();
+                        }
+                        else
+                        {
+                            closeConnection();
+                            mrd.Close();
+                            string insertQuery = "INSERT INTO usuarios( nombre, apepat, apemat, id_rango, contrasena)VALUES('" + txtnombre.Text + "','" + txtAP.Text + "','" + txtAM.Text + "','" + comboBox1.Text + "','" + txtPass.Text + "' )";
+
+                            //  MessageBox.Show(insertQuery);
+                            executeMyQuery(insertQuery);
+                            populateDGV();
+                            MessageBox.Show("Usuario agregado");
+                            populateDGV();
+                            button1_Click(sender, e);
+                        }
                     }
-
-
-
-                    closeConnection();
                 }
                 else
                 {
-
-
-                    string insertQuery = "INSERT INTO usuarios( nombre, apepat, apemat, id_rango, contrasena)VALUES('" + txtnombre.Text + "','" + txtAP.Text + "','" + txtAM.Text + "','" + comboBox1.Text + "','" + txtPass.Text + "' )";
-
-                    //  MessageBox.Show(insertQuery);
-                    executeMyQuery(insertQuery);
-                    populateDGV();
-                    MessageBox.Show("Usuario agregado");
-                    populateDGV();
-                    button1_Click(sender, e);
-
+                    MessageBox.Show("La contraseña debe ser mayor a 7 digitos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
             }

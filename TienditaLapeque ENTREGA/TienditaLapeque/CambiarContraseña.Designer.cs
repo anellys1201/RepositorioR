@@ -47,7 +47,7 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.BackColor = System.Drawing.Color.NavajoWhite;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.label5.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(-1, 10);
@@ -77,9 +77,9 @@
             this.lblNuevaC.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNuevaC.Location = new System.Drawing.Point(49, 133);
             this.lblNuevaC.Name = "lblNuevaC";
-            this.lblNuevaC.Size = new System.Drawing.Size(147, 22);
+            this.lblNuevaC.Size = new System.Drawing.Size(141, 22);
             this.lblNuevaC.TabIndex = 15;
-            this.lblNuevaC.Text = "Nueva Constraseña:";
+            this.lblNuevaC.Text = "Nueva Contraseña:";
             this.lblNuevaC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
@@ -88,9 +88,9 @@
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 174);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 22);
+            this.label2.Size = new System.Drawing.Size(165, 22);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Confirmar Constraseña:";
+            this.label2.Text = "Confirmar Contraseña:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtUsuario
@@ -116,11 +116,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.IndianRed;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Enabled = false;
+            this.textBox1.BackColor = System.Drawing.Color.Gray;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.textBox1.Location = new System.Drawing.Point(17, 212);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -149,8 +147,9 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(283, 317);
@@ -163,8 +162,9 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(180, 317);
@@ -179,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(436, 367);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAgregar);

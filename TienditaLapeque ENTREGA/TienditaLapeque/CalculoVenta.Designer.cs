@@ -76,7 +76,7 @@ namespace TienditaLapeque
             // 
             // btnAplicar
             // 
-            this.btnAplicar.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnAplicar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.btnAplicar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicar.FlatAppearance.BorderSize = 0;
             this.btnAplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -93,7 +93,7 @@ namespace TienditaLapeque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSalmon;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.btnAplicar);
             this.Controls.Add(this.textBox3);

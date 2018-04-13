@@ -46,12 +46,12 @@ namespace TienditaLapeque
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.Color.IndianRed;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(0, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1043, 51);
+            this.label1.Size = new System.Drawing.Size(1068, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sistema de Ventas \"La peque\"";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -59,15 +59,15 @@ namespace TienditaLapeque
             // 
             // btnProductos
             // 
-            this.btnProductos.BackColor = System.Drawing.Color.IndianRed;
-            this.btnProductos.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnProductos.FlatAppearance.BorderColor = System.Drawing.Color.Ivory;
             this.btnProductos.FlatAppearance.BorderSize = 2;
             this.btnProductos.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.btnProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSalmon;
+            this.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductos.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductos.ForeColor = System.Drawing.Color.White;
+            this.btnProductos.ForeColor = System.Drawing.Color.Black;
             this.btnProductos.Location = new System.Drawing.Point(320, 284);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(432, 55);
@@ -78,15 +78,15 @@ namespace TienditaLapeque
             // 
             // btnReportes
             // 
-            this.btnReportes.BackColor = System.Drawing.Color.IndianRed;
-            this.btnReportes.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnReportes.FlatAppearance.BorderColor = System.Drawing.Color.Ivory;
             this.btnReportes.FlatAppearance.BorderSize = 2;
             this.btnReportes.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.btnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSalmon;
+            this.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportes.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportes.ForeColor = System.Drawing.Color.White;
+            this.btnReportes.ForeColor = System.Drawing.Color.Black;
             this.btnReportes.Location = new System.Drawing.Point(320, 498);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(432, 55);
@@ -97,15 +97,15 @@ namespace TienditaLapeque
             // 
             // btnVentas
             // 
-            this.btnVentas.BackColor = System.Drawing.Color.IndianRed;
-            this.btnVentas.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnVentas.FlatAppearance.BorderColor = System.Drawing.Color.Ivory;
             this.btnVentas.FlatAppearance.BorderSize = 2;
             this.btnVentas.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.btnVentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnVentas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSalmon;
+            this.btnVentas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVentas.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVentas.ForeColor = System.Drawing.Color.White;
+            this.btnVentas.ForeColor = System.Drawing.Color.Black;
             this.btnVentas.Location = new System.Drawing.Point(320, 171);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Size = new System.Drawing.Size(432, 55);
@@ -116,15 +116,15 @@ namespace TienditaLapeque
             // 
             // btnUsuarios
             // 
-            this.btnUsuarios.BackColor = System.Drawing.Color.IndianRed;
-            this.btnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
+            this.btnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.Ivory;
             this.btnUsuarios.FlatAppearance.BorderSize = 2;
             this.btnUsuarios.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSalmon;
+            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LawnGreen;
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuarios.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuarios.ForeColor = System.Drawing.Color.White;
+            this.btnUsuarios.ForeColor = System.Drawing.Color.Black;
             this.btnUsuarios.Location = new System.Drawing.Point(320, 396);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(432, 55);
@@ -136,7 +136,7 @@ namespace TienditaLapeque
             // lblhora
             // 
             this.lblhora.AutoSize = true;
-            this.lblhora.BackColor = System.Drawing.Color.IndianRed;
+            this.lblhora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.lblhora.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhora.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblhora.Location = new System.Drawing.Point(33, 24);
@@ -149,7 +149,7 @@ namespace TienditaLapeque
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -164,7 +164,7 @@ namespace TienditaLapeque
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.IndianRed;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(225)))), ((int)(((byte)(51)))));
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
@@ -184,7 +184,7 @@ namespace TienditaLapeque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.NavajoWhite;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1067, 650);
             this.Controls.Add(this.lblhora);
             this.Controls.Add(this.button3);
