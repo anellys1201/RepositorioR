@@ -177,6 +177,7 @@
             // 
             // mODIFICARToolStripMenuItem
             // 
+            this.mODIFICARToolStripMenuItem.BackColor = System.Drawing.Color.Gray;
             this.mODIFICARToolStripMenuItem.Name = "mODIFICARToolStripMenuItem";
             this.mODIFICARToolStripMenuItem.Padding = new System.Windows.Forms.Padding(30, 0, 4, 0);
             this.mODIFICARToolStripMenuItem.Size = new System.Drawing.Size(170, 32);

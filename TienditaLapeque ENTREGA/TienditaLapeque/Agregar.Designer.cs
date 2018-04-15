@@ -164,6 +164,7 @@
             // 
             // aGREGARToolStripMenuItem
             // 
+            this.aGREGARToolStripMenuItem.BackColor = System.Drawing.Color.Gray;
             this.aGREGARToolStripMenuItem.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aGREGARToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.aGREGARToolStripMenuItem.Name = "aGREGARToolStripMenuItem";

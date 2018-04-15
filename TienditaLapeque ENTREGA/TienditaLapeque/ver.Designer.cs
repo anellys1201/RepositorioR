@@ -180,6 +180,7 @@
             // 
             // vERToolStripMenuItem
             // 
+            this.vERToolStripMenuItem.BackColor = System.Drawing.Color.Gray;
             this.vERToolStripMenuItem.Name = "vERToolStripMenuItem";
             this.vERToolStripMenuItem.Padding = new System.Windows.Forms.Padding(30, 0, 4, 0);
             this.vERToolStripMenuItem.Size = new System.Drawing.Size(92, 32);

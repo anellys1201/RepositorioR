@@ -35,7 +35,7 @@ namespace TienditaLapeque
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-          
+           
             this.Close();
             Agregar fagregar = new Agregar();
             fagregar.Show();
@@ -44,6 +44,7 @@ namespace TienditaLapeque
 
         private void index_Load(object sender, EventArgs e)
         {
+            lblrango.Text = Convert.ToString(Globales.idventa);
             if (Globales.idrango == 2)
             {
                 btnProductos.Enabled = false;
@@ -68,6 +69,7 @@ namespace TienditaLapeque
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
+            Globales.idventa += 1;
             this.Close();
             Ventas frmventas = new Ventas();
             frmventas.Show();

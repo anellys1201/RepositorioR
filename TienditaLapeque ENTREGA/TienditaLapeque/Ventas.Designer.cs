@@ -277,10 +277,19 @@ namespace TienditaLapeque
             // 
             // dataGridbuscar
             // 
+            this.dataGridbuscar.AllowUserToAddRows = false;
+            this.dataGridbuscar.AllowUserToDeleteRows = false;
+            this.dataGridbuscar.AllowUserToOrderColumns = true;
+            this.dataGridbuscar.AllowUserToResizeColumns = false;
+            this.dataGridbuscar.AllowUserToResizeRows = false;
+            this.dataGridbuscar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridbuscar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridbuscar.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(233)))), ((int)(((byte)(107)))));
             this.dataGridbuscar.Location = new System.Drawing.Point(17, 71);
+            this.dataGridbuscar.MultiSelect = false;
             this.dataGridbuscar.Name = "dataGridbuscar";
+            this.dataGridbuscar.ReadOnly = true;
+            this.dataGridbuscar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridbuscar.Size = new System.Drawing.Size(487, 192);
             this.dataGridbuscar.TabIndex = 0;
             this.dataGridbuscar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridbuscar_CellContentClick);

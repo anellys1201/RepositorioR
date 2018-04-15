@@ -53,6 +53,14 @@ namespace TienditaLapeque
            {
                 
                 Globales.idrango = Convert.ToInt16(leer["id_rango"]);
+                conexion.Close();
+                conexion.Open();
+               MySqlCommand idventa = new MySqlCommand("SELECT MAX(id_venta) as mayor FROM venta",conexion);
+                leer = idventa.ExecuteReader();
+                if (leer.Read())
+                {
+                    Globales.idventa = Convert.ToInt32(leer["mayor"]);
+                }
                 inde.Show();
                 this.Hide();
                           
@@ -111,7 +119,16 @@ namespace TienditaLapeque
                // Globales.idrango = Convert.ToInt16(leer["id_rango"]);
                 if (leer.Read()) //Si el usuario es correcto nos abrira la otra ventana.
                 {
+
                     Globales.idrango = Convert.ToInt16(leer["id_rango"]);
+                    conexion.Close();
+                    conexion.Open();
+                    MySqlCommand idventa = new MySqlCommand("SELECT MAX(id_venta) as mayor FROM venta", conexion);
+                    leer = idventa.ExecuteReader();
+                    if (leer.Read())
+                    {
+                        Globales.idventa = Convert.ToInt32(leer["mayor"]);
+                    }
                     inde.Show();
                     this.Hide();
 

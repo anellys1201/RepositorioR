@@ -19,7 +19,7 @@ namespace variablesGlobales
         public static string idproducto="";
         public static string precio="";
         public static string cantidad;
-        public static string idventa ="";
+        public static int idventa;
         public static string fechaventa="";
         public static string productoventa="";
        public static string producto;
@@ -31,6 +31,7 @@ namespace variablesGlobales
         public static string recibido="";
         public static string subtotal=""; 
         public static int auxiliarid;
+        public static int validarcompra;
     }
     
 }

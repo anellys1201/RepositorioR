@@ -189,6 +189,7 @@
             // 
             // bORRARToolStripMenuItem
             // 
+            this.bORRARToolStripMenuItem.BackColor = System.Drawing.Color.Gray;
             this.bORRARToolStripMenuItem.Name = "bORRARToolStripMenuItem";
             this.bORRARToolStripMenuItem.Padding = new System.Windows.Forms.Padding(30, 0, 4, 0);
             this.bORRARToolStripMenuItem.Size = new System.Drawing.Size(134, 32);

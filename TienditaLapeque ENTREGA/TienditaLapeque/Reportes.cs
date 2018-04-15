@@ -80,7 +80,8 @@ namespace TienditaLapeque
         {
             closeConnection();
             MySqlDataReader mrd;
-            string selectQuery = "SELECT * FROM venta where fecha_venta like '" + comboBox1.Text + "/" + comboBox2.Text + "%'";
+            //string selectQuery = "SELECT * FROM venta where fecha_venta like '" + comboBox1.Text + "/" + comboBox2.Text + "%'";
+            string selectQuery = "SELECT * FROM venta where fecha_venta like '" + dtp1.Text + "%'";
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
             adapter.Fill(table);

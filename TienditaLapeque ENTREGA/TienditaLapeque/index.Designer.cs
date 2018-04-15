@@ -40,6 +40,7 @@ namespace TienditaLapeque
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblrango = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -180,12 +181,22 @@ namespace TienditaLapeque
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // lblrango
+            // 
+            this.lblrango.AutoSize = true;
+            this.lblrango.Location = new System.Drawing.Point(805, 28);
+            this.lblrango.Name = "lblrango";
+            this.lblrango.Size = new System.Drawing.Size(57, 13);
+            this.lblrango.TabIndex = 15;
+            this.lblrango.Text = "IDRANGO";
+            // 
             // index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1067, 650);
+            this.Controls.Add(this.lblrango);
             this.Controls.Add(this.lblhora);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -217,5 +228,6 @@ namespace TienditaLapeque
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblrango;
     }
 }

@@ -62,7 +62,7 @@ namespace TienditaLapeque
         }
         public void populateDGV()
         {
-            string selectQuery = "SELECT * FROM usuarios";
+            string selectQuery = "SELECT id_usuario as Clave_Usuarios, nombre, apepat as Apellido_Paterno, apemat as Apellido_Materno, id_rango as Rango, contrasena FROM usuarios";
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
             adapter.Fill(table);
@@ -127,21 +127,27 @@ namespace TienditaLapeque
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            DialogResult boton = MessageBox.Show("¿Esta seguro de eliminar este usuario?", "Advertencia", MessageBoxButtons.YesNo);
-            if (boton == DialogResult.Yes)
+            if (txtnombre.Text != "" && txtAP.Text != "" && txtAM.Text != "" && txtPass.Text != "" && comboBox1.Text != "")
             {
 
-                string deleteQuery = "DELETE FROM usuarios WHERE id_usuario =" + int.Parse(txtID.Text) + "";
-                executeMyQuery(deleteQuery);
-                populateDGV();
-                MessageBox.Show("Usuario Eliminado");
-                populateDGV();
-                button1_Click(sender,e);
+                DialogResult boton = MessageBox.Show("¿Esta seguro de eliminar este usuario?", "Advertencia", MessageBoxButtons.YesNo);
+                if (boton == DialogResult.Yes)
+                {
+
+                    string deleteQuery = "DELETE FROM usuarios WHERE id_usuario =" + int.Parse(txtID.Text) + "";
+                    executeMyQuery(deleteQuery);
+                    populateDGV();
+                    MessageBox.Show("Usuario Eliminado");
+                    populateDGV();
+                    button1_Click(sender, e);
+                }
+                else
+                {
+                    MessageBox.Show("Usuario no eliminado");
+                }
             }
             else
-            {
-                MessageBox.Show("Usuario no eliminado");
-            }
+                MessageBox.Show("Seleccione un usuario", "Error", MessageBoxButtons.OK);
         }
 
         private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
@@ -162,7 +168,7 @@ namespace TienditaLapeque
 
                 if (txtPass.TextLength < 8)
                 {
-                    MessageBox.Show("Tu contraseña es demaciado corta, ingresa mas de 8 carateres");
+                    MessageBox.Show("Tu contraseña es demasiado corta, ingresa mas de 8 carateres");
                 }
                 else
 

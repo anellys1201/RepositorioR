@@ -29,7 +29,7 @@ namespace TienditaLapeque
         {
             Globales.document = new Document();
             PdfWriter.GetInstance(Globales.document, new FileStream("Ticket.pdf", FileMode.OpenOrCreate));
-            iTextSharp.text.Rectangle docSize = new iTextSharp.text.Rectangle(250f,300f);
+            iTextSharp.text.Rectangle docSize = new iTextSharp.text.Rectangle(250f,400f);
             Globales.document.SetPageSize(docSize);
             iTextSharp.text.pdf.BaseFont docFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, iTextSharp.text.Font.NORMAL).BaseFont;
          //   iTextSharp.text.Font times = new iTextSharp.text.Font(docFont, 12, Font.Italic, Color.DarkBlue);
@@ -110,7 +110,7 @@ namespace TienditaLapeque
            
 
             this.lblus.Text = Globales.usuario;
-            string selectQuery = "SELECT v.producto, v.precio, v.cp_vendidos as Cantidad_de_Productos, v.nombre_usuario as usuario FROM venta as v where id_venta=" + Globales.auxiliarid+"";
+            string selectQuery = "SELECT v.producto, v.precio, v.cp_vendidos as Cantidad_de_Productos, v.nombre_usuario as usuario FROM venta as v where id_venta=" + Globales.idventa+"";
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
             adapter.Fill(table);
@@ -183,16 +183,17 @@ namespace TienditaLapeque
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            
             valorcantidad();
-            if (txtcantidad.Text != "")
+            if (txtcantidad.Text != "" && txtnombre.Text != "" && txtcantidad.Text != "" && txtprecio.Text != "")
             {
 
 
-                if ((Convert.ToInt16(txtcantidad.Text)) <= (Convert.ToInt16(Globales.cantidad)))
+                if ((Convert.ToInt16(txtcantidad.Text)) <= (Convert.ToInt16(Globales.cantidad)) && (Convert.ToInt16(txtcantidad.Text)) > 0)
                 {
                     idmensaje = 1;
                     Globales.precioproducto = Convert.ToDouble(txtprecio.Text) * Convert.ToDouble(txtcantidad.Text);
-                    string insertQuery = "INSERT INTO venta VALUES('" + Globales.auxiliarid + "', '" + lblf.Text + "', '" + txtnombre.Text + "', '" + txtprecio.Text + "', '" + txtcantidad.Text + "','" + Globales.usuario + "','" + Globales.precioproducto + "')";
+                    string insertQuery = "INSERT INTO venta VALUES('" + Globales.idventa + "', '" + lblf.Text + "', '" + txtnombre.Text + "', '" + txtprecio.Text + "', '" + txtcantidad.Text + "','" + Globales.usuario + "','" + Globales.precioproducto + "')";
                     executeMyQuery(insertQuery);
                     populateDGV();
                     int a= Convert.ToInt32(Globales.cantidad) - Convert.ToInt32(txtcantidad.Text);
@@ -201,6 +202,7 @@ namespace TienditaLapeque
                     Globales.document.Add(new Paragraph("Producto:     " + txtnombre.Text + "   Precio: " + txtprecio.Text));
                     executeMyQuery(updateQuery);
                     actualizacionbuscar();
+                    Globales.validarcompra = 1;
                 }
                 else
                 {
@@ -208,7 +210,7 @@ namespace TienditaLapeque
                 }
             }
             else
-                MessageBox.Show("Por favor ingresa la cantidad de productos a comprar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor ingresa el nombre y cantidad de productos a comprar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
 
@@ -258,32 +260,38 @@ namespace TienditaLapeque
 
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Esta seguro de Finalizar la compra?", "Finalizar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
+            if (Globales.validarcompra == 1)
             {
-                openConnection();
-              
-                command = new MySqlCommand("SELECT sum(subtotal) as sub from venta where id_venta="+ Globales.auxiliarid+"" , connection);
-                MySqlDataReader leer = command.ExecuteReader();
-                Globales.auxiliarid += 1;
-                if (leer.Read())
+                if (MessageBox.Show("¿Esta seguro de Finalizar la compra?", "Finalizar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
                 {
-                    if (leer["sub"].ToString() != "")
-                        Globales.totalventas = Convert.ToString(leer["sub"]);
+                    openConnection();
+                   
+                    command = new MySqlCommand("SELECT sum(subtotal) as sub from venta where id_venta=" + Globales.idventa + "", connection);
+                    MySqlDataReader leer = command.ExecuteReader();
+                    Globales.auxiliarid += 1;
+                    if (leer.Read())
+                    {
+                        if (leer["sub"].ToString() != "")
+                            Globales.totalventas = Convert.ToString(leer["sub"]);
+                    }
+                    closeConnection();
+
+                    CalculoVenta frmventa = new CalculoVenta();
+                    frmventa.Show();
+                    dataGridbuscar.ClearSelection();
+                    dataGridVenta.ClearSelection();
+                    txtbuscar.Text = "";
+                    txtcantidad.Text = "";
+                    txtnombre.Text = "";
+                    txtprecio.Text = "";
+                    populateDGV();
+                    actualizacionbuscar();
+                    Globales.validarcompra = 2;
+                    Globales.idventa += 1;
                 }
-                closeConnection();
-
-                CalculoVenta frmventa = new CalculoVenta();
-                frmventa.Show();
-                dataGridbuscar.ClearSelection();
-                dataGridVenta.ClearSelection();   
-                  txtbuscar.Text = "";
-                txtcantidad.Text = "";
-                  txtnombre.Text = "";
-                txtprecio.Text = "";
-                populateDGV();
-                actualizacionbuscar();
             }
-
+            else
+                MessageBox.Show("No hay ninguna compra");
         }
         private void btnCancelar_Click(object sender, EventArgs e)
         {
