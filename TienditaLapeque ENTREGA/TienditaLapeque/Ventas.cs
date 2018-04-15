@@ -31,16 +31,7 @@ namespace TienditaLapeque
             PdfWriter.GetInstance(Globales.document, new FileStream("Ticket.pdf", FileMode.OpenOrCreate));
             iTextSharp.text.Rectangle docSize = new iTextSharp.text.Rectangle(250f,400f);
             Globales.document.SetPageSize(docSize);
-            iTextSharp.text.pdf.BaseFont docFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, iTextSharp.text.Font.NORMAL).BaseFont;
-         //   iTextSharp.text.Font times = new iTextSharp.text.Font(docFont, 12, Font.Italic, Color.DarkBlue);
-            Globales.document.Open();
-            iTextSharp.text.Image imagen = iTextSharp.text.Image.GetInstance("C:/Users/Jose Antonio/Desktop/8vo Cuatrimestre/REINGENIERÍA/RepoTienda/RepositorioR/TienditaLapeque ENTREGA/TienditaLapeque/img/imagenPDF.png");
-            imagen.BorderWidth = 0;
-            imagen.Alignment = Element.ALIGN_CENTER;
-            float percentage = 0.0f;
-            percentage = 100 / imagen.Width;
-            imagen.ScalePercent(percentage * 50);
-            Globales.document.Add(imagen);
+         
             iTextSharp.text.Paragraph parrafo1 = new Paragraph("/Tienda de Abarrotes la peque/");
             parrafo1.Alignment = Element.ALIGN_CENTER;
             Globales.document.Add(parrafo1);
